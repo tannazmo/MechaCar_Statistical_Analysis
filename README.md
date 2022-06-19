@@ -12,9 +12,10 @@ According to our results, vehicle_length and ground_clearance provided non-rando
 In other words the vehicle_length and ground_clearance have a significant impact on mpg. 
 
 #### Is the slope of the linear model considered to be zero? Why or why not?
+The p-value of our linear regression analysis is 5.35e-11 (0.0000000000535), which is much smaller than the common significance level of 0.05%, meaning that the null hypothesis can be rejected which means that the slope of our linear model is not zero.
 
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-the R-squared value is 0.7149 
+the multiple R-squared value is 0.7149 which shows that it could be somewhat effective for predicting mpg.
 
 
 ## Deliverable 2 : Summary Statistics on Suspension Coils
@@ -54,4 +55,20 @@ for Lot 2, the p-value is 0.6072 which is higher than 0.05, therefore we fail to
 for Lot 3, the calculated p-value is 0.04 which is lower than 0.05, we would state that there is sufficient statistical evidence that our null hypothesis is not true, and therefore we would reject our null hypothesis.
 
 
-## Deliverable 4
+## Deliverable 4 : Study Design: MechaCar vs Competition
+
+- Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+
+In your description, address the following questions:
+
+- What metric or metrics are you going to test?
+
+- What is the null hypothesis or alternative hypothesis?
+
+- What statistical test would you use to test the hypothesis? And why?
+
+- What data is needed to run the statistical test?
+HINT
+
+
